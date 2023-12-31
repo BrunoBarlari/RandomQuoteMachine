@@ -1,15 +1,8 @@
-import { useSelector } from "react-redux";
 import "./App.css";
-import Background from "./components/appBackground";
-
-
+import Background from "./components/background";
 
 function App() {
-	useSelector((state) => state.tasks);
-
-	return (
-		<Background/>
-	);
+	return <Background />;
 }
 
 export default App;
